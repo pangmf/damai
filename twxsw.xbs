@@ -1,0 +1,36 @@
+{
+  "bookSourceComment": "由 AI 根據台灣小說網頁面結構生成",
+  "bookSourceGroup": "免費小說",
+  "bookSourceName": "台灣小說閣",
+  "bookSourceType": 0,
+  "bookSourceUrl": "https://www.xsw.tw",
+  "enable": true,
+  "httpWatermarkConfig": "",
+  "ruleBookInfo": {
+    "author": "class.author@text",
+    "intro": "class.intro@text",
+    "kind": "class.kind@text",
+    "lastChapter": "class.last_chapter@text",
+    "name": "class.title@text",
+    "tocUrl": ""
+  },
+  "ruleContent": {
+    "content": "id.content@text"
+  },
+  "ruleExplore": {},
+  "ruleSearch": {
+    "author": "tag.span.1@text",
+    "bookList": "class.grid.0||tag.tr",
+    "bookUrl": "tag.a.0@href",
+    "checkKeyWord": "劍",
+    "kind": "tag.span.0@text",
+    "lastChapter": "tag.a.1@text",
+    "name": "tag.a.0@text"
+  },
+  "ruleToc": {
+    "chapterList": "id.list||tag.dd",
+    "chapterName": "tag.a@text",
+    "chapterUrl": "tag.a@href"
+  },
+  "searchUrl": "https://www.xsw.tw/modules/article/search.php?searchkey={{key}}&submit=%CB%D1%CB%F7"
+}
